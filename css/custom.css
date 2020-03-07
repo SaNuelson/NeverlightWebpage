@@ -1,0 +1,119 @@
+/* Font Section*/
+.bg-dark-grey {
+    background-color: #36393F;
+}
+
+.bg-grey{
+    background-color: #40444B;
+}
+
+.fg-light{
+    color: #A0A0A0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    color: #606060;
+}
+
+/* Main Section */
+p{
+    font-size: 1.2rem;
+    font-family: "Exo2";
+    font-weight: light;
+}
+
+p.small{
+    font-size: 0.9rem;
+}
+
+h4{
+    font-size: 1.8rem;
+    font-family: "Exo2";
+}
+
+h2{
+    font-size: 2.4rem;
+    font-family: "Exo2";
+    font-weight: 700;
+}
+
+a{
+    color: #808080;
+}
+
+a:hover{
+    color: #B0B0B0;
+}
+
+a.active{
+    color: #FFFFFF;
+}
+
+/* Specifics Section */
+
+.author-block{
+    background-color: #FFFFFF;
+    border: 3px solid #DEDEDE;
+    border-radius: 8px;
+}
+
+.left-lined{
+    border-left: 1px solid #AAAAAA;
+}
+
+.right-lined{
+    border-right: 1px solid #AAAAAA;
+}
+
+/* Bootstrap Fix Section */
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container .row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+/* Jumbo Section */
+
+.jumbo-header,
+.jumbo-subheader,
+.jumbo-text{
+    font-family: "Exo2";
+    font-weight: bold;
+    color: white;
+}
+
+.jumbo-header{
+    font-size: 4rem !important;
+    letter-spacing: 0.5rem;
+}
+
+.jumbo-subheader{
+    font-size: 2.5rem !important;
+    letter-spacing: 0.4rem;
+}
+
+.jumbo-text{
+    font-size: 1.3rem !important;
+    letter-spacing: 0.3rem;
+}
+
+.jumbotron img,
+.jumbotron-fluid img{
+    opacity: 0.75;
+}
+
+.jumbotron, .jumbotron-fluid{
+    background: linear-gradient(to top, black, white);
+}
+
+.jumbotron-overlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
